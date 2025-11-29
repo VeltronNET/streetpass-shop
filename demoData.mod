@@ -2,10 +2,10 @@
   "storeInfo": {
     "title": "StreetPass-Shop",
     "author": "MattTheTekie",
-    "url": "https://raw.githubusercontent.com/sdkpaint/streetpass-store/main/unistore/StreetPass-Shop.unistore",
+    "url": "https://raw.githubusercontent.com/VeltronNET/streetpass-store/main/unistore/StreetPass-Shop.unistore",
     "file": "StreetPass-Shop.unistore",
     "sheet": "StreetPass-Shop.t3x",
-    "sheetURL": "https://raw.githubusercontent.com/sdkpaint/streetpass-store/main/unistore/StreetPass-Shop.t3x",
+    "sheetURL": "https://raw.githubusercontent.com/VeltronNET/streetpass-store/main/unistore/StreetPass-Shop.t3x",
     "description": "Here you can find loads of StreetPass data!\nEnjoy browsing through the StreetPass shop! ~MattTheTekie!",
     "version": 3,
     "revision": 4
@@ -37,3 +37,4 @@
     }
   ]
 } 
+
