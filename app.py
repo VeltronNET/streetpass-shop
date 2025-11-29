@@ -9,7 +9,7 @@ UPLOAD_FOLDER = 'temp_uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 SECRET_TOKEN = "REDACTED"
-ALLOWED_ORIGIN = "https://streetpass.venith.net"
+ALLOWED_ORIGIN = "https://streetpass.veltron.net"
 
 @app.route('/')
 def main():
@@ -65,7 +65,7 @@ def upload_json():
             {
                 "type": "downloadFile",
                 "hash": file_hash,
-                "file": f"http://streetpass.venith.net/downloadFile/{new_filename}",
+                "file": f"http://streetpass.veltron.net/downloadFile/{new_filename}",
                 "message": "Downloading StreetPass Data... Make sure to run the StreetPass2 GodMode9 script by Noxious Ninja!",
                 "output": f"sdmc:/gm9/in/streetpass/{new_filename}"
             }
@@ -77,7 +77,7 @@ def upload_json():
     with open("demoData.json", "w") as json_file:
         json.dump(js_in, json_file, indent='\t')
 
-    return 'Please wait up to 3 hours for your StreetPass data to show in the shop. This is an automatic process. For any questions, check out http://gg.gg/venith_chat', 200
+    return 'Please wait up to 3 hours for your StreetPass data to show in the shop. This is an automatic process. For any questions, check out http://discord.go.veltron.net', 200
 
 # ... (@app.route('/testJson')
 def test_json():
